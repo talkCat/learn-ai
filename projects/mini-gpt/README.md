@@ -14,23 +14,24 @@
 
 在仓库根目录安装：
 
-```powershell
-pip install -r requirements.txt
+```bash
+uv venv --python 3.12
+uv pip install -r requirements.txt
 ```
 
 ## 训练
 
-```powershell
+```bash
 cd projects/mini-gpt
-python train.py --max-iters 200 --eval-interval 50
+uv run python train.py --max-iters 200 --eval-interval 50
 ```
 
 CPU 上可以先用默认小配置跑通。如果有 GPU，可以增加 `--n-layer`、`--n-head`、`--n-embd`。
 
 ## 采样
 
-```powershell
-python sample.py --checkpoint checkpoints/mini_gpt.pt --prompt "To be"
+```bash
+uv run python sample.py --checkpoint checkpoints/mini_gpt.pt --prompt "To be"
 ```
 
 ## 学习重点

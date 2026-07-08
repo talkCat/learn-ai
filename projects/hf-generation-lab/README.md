@@ -14,9 +14,9 @@
 
 ## 运行
 
-```powershell
+```bash
 cd projects/hf-generation-lab
-python generation_lab.py --prompt "A software engineer learns transformers by"
+uv run python generation_lab.py --prompt "A software engineer learns transformers by"
 ```
 
 保存的结果包括：
@@ -26,12 +26,12 @@ python generation_lab.py --prompt "A software engineer learns transformers by"
 
 ## 常用参数
 
-```powershell
-python generation_lab.py `
-  --model sshleifer/tiny-gpt2 `
-  --prompt "The model predicts" `
-  --max-new-tokens 40 `
-  --temperature 0.8 `
-  --top-p 0.9 `
+```bash
+uv run python generation_lab.py \
+  --model sshleifer/tiny-gpt2 \
+  --prompt "The model predicts" \
+  --max-new-tokens 40 \
+  --temperature 0.8 \
+  --top-p 0.9 \
   --top-k 10
 ```
