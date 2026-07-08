@@ -1,0 +1,51 @@
+{
+  "model": "sshleifer/tiny-gpt2",
+  "prompt": "The model predicts",
+  "max_new_tokens": 3,
+  "do_sample": true,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "input_ids": [
+    464,
+    2746,
+    26334
+  ],
+  "tokens": [
+    "The",
+    "Ġmodel",
+    "Ġpredicts"
+  ],
+  "generated_text": "The model predicts Bend 236 boils",
+  "top_next_tokens": [
+    {
+      "rank": 1,
+      "token_id": 5087,
+      "token": " factors",
+      "probability": 2.1049234419479035e-05
+    },
+    {
+      "rank": 2,
+      "token_id": 13584,
+      "token": " mutual",
+      "probability": 2.102765029121656e-05
+    },
+    {
+      "rank": 3,
+      "token_id": 31685,
+      "token": " deflect",
+      "probability": 2.1017676772316918e-05
+    },
+    {
+      "rank": 4,
+      "token_id": 21516,
+      "token": " Television",
+      "probability": 2.0997033061576076e-05
+    },
+    {
+      "rank": 5,
+      "token_id": 40169,
+      "token": " boils",
+      "probability": 2.0972562197130173e-05
+    }
+  ]
+}

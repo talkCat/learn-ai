@@ -1,0 +1,10 @@
+To be, or not to be, that is the question:
+Whether a model learns from tokens,
+Or merely echoes shapes in tensors.
+
+The engineer reads the logits,
+The mask hides the future,
+And attention turns context into choice.
+
+Tiny models are not wise,
+But they are honest teachers.
